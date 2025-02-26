@@ -287,14 +287,14 @@ def display_cards(cards):
 trinca = Mão(3,cards=[Card(spade,"2")])
 
 
-jogador1 = Jogador("Campelo")        
+jogador1 = Jogador("Placeholder1")        
 
 
-jogador2 = Jogador("Vatsu")
+jogador2 = Jogador("Placeholder2")
 
-jogador3 = Jogador("Malup")
+jogador3 = Jogador("Placeholder3")
 
-jogador4 = Jogador("Jorge")
+jogador4 = Jogador("placeholder4")
 
 bolo = Baralho( quant=2)
 print(len(bolo.cartas))
